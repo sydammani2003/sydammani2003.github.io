@@ -1,0 +1,155 @@
+
+body{
+    background-color: #16161a;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+
+}
+ul li a{
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    
+    justify-content: space-between;
+}
+.mail{
+    text-decoration: none;
+    font-size: 20px;
+    
+    
+}
+.mail:hover{
+    color: brown;
+}
+.button{
+    background: transparent;
+    align-items: right;
+}
+ul li a:hover,
+ul li a.active{
+    color: #faebd7;
+    border-bottom: 2px #faebd7;
+}
+.first{
+    display: flex;
+    flex:wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+
+}
+.hero{
+    padding-bottom: 20px;
+}
+.name{
+    color: #faebd7;
+    font-weight: 900;
+}
+.img{
+    max-width: 100px;
+}
+.det h1{
+    font-size: 86px;
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;
+    color: #faebd7;
+}
+.det h3{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    color: #faebd7;
+    text-shadow: 10px;
+    
+}
+.det button{
+    background: transparent;
+    color: aquamarine;
+    border:2px solid wheat;
+    cursor: pointer;
+    font-size: 15px;
+}
+.second{
+    padding-top: 150px;
+}
+.yes{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    font-family:'Lato', sans-serif;
+    padding-bottom:10px;
+    color: rgb(214, 138, 214);
+
+
+}
+.yep{
+    padding-left: 60px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    font-family:'Lato', sans-serif;
+    color: #faebd7;
+    max-width: 1100px;
+    line-height: 35px;
+}
+.third{
+    padding-top:170px;
+    padding-bottom: 90px;
+}
+.no{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    font-family:'Lato', sans-serif;
+    padding-bottom:10px;
+    color: rgb(214, 138, 214);
+}
+.classify{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-left: 200px;
+    
+}
+.yo{
+    flex: 0 0 33.333333%;
+    padding-bottom: 20px;
+    
+}
+.nope{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    font-family:'Lato', sans-serif;
+    padding-bottom:10px;
+    color: rgb(214, 138, 214);
+
+}
+.gy{
+    text-align: center;
+    color: #faebd7;
+}
+.nope{
+    padding-bottom: 30px;
+}
+.mop{
+    padding-bottom: 25px;
+}
+html {
+    scroll-behavior: smooth;
+  }
+  .UH{
+    text-decoration: none;
+    color:aquamarine;
+    font-weight: 300;
+    font-size: 20px;
+  }
